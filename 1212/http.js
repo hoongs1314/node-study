@@ -1,11 +1,11 @@
-const http = require('http');
+const http = require("http");
 
 const server = http.createServer((req, res) => {
-    if (req.url === '/') {
-        console.log("welcome");
-        res.write("welcome");
-        res.end();
-    }
+	if (req.url === "/") {
+		console.log("welcome");
+		res.write("welcome");
+		res.end();
+	}
 });
 
 

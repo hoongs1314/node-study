@@ -1,4 +1,4 @@
-var logger = require('./logger')
+var logger = require("./logger");
 
 logger.log("hhhhh");
 
@@ -7,12 +7,9 @@ logger.log("hhhhh");
 // console.log(module);
 
 
-
-
-const path = require('path');
+const path = require("path");
 const pathObj = path.parse(__filename);
-console.log(pathObj)
-
+console.log(pathObj);
 
 
 const os = require("os");
@@ -20,5 +17,5 @@ const os = require("os");
 let totalmem = os.totalmem();
 let freemem = os.freemem();
 
-console.log(`Total mem: ${totalmem / 1024 / 1024 / 1024}`);
-console.log(`Free mem: ${freemem / 1024 / 1024 / 1024}`);
+console.log(`Total mem: ${ totalmem / 1024 / 1024 / 1024 }`);
+console.log(`Free mem: ${ freemem / 1024 / 1024 / 1024 }`);
